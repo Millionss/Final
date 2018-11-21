@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "6.9"
 install:
-  - npm install -lts
+  - npm install
   - npm install -g firebase-tools
 script:
   - echo "deploying"
